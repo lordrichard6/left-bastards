@@ -4,15 +4,20 @@ import styled from 'styled-components';
 import tw from 'twin.macro'
 
 
-// import { LandingPage } from './containers/landingPage'
-import { Homepage } from './containers/homepage'
+import {Navbar} from './components/navbar'
 import {Footer} from './components/footer'
+// import { LandingPage } from './containers/landingPage'
+// import { Homepage } from './containers/homepage'
+import { Members } from './containers/members'
+
 
 function App() {
   return (
     <AppContainer>
+      <Navbar />
       {/* <LandingPage /> */}
-      <Homepage />
+      {/* <Homepage /> */}
+      <Members />
       <Footer />
     </AppContainer>
   );

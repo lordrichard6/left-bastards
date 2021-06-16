@@ -23,6 +23,7 @@ const NavbarContainer = styled.div`
         justify-between
         px-4
         mt-2
+        md:px-32
     `}
 `;
 
