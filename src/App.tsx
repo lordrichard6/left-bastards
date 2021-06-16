@@ -4,14 +4,14 @@ import styled from 'styled-components';
 import tw from 'twin.macro'
 
 
-import { LandingPage } from './containers/landingPage'
-
+// import { LandingPage } from './containers/landingPage'
+import { Homepage } from './containers/homepage'
 
 function App() {
   return (
     <AppContainer>
-      <LandingPage />
-      
+      {/* <LandingPage /> */}
+      <Homepage />
     </AppContainer>
   );
 }
@@ -22,6 +22,6 @@ const AppContainer = styled.div`
   ${tw`
     flex
     flex-col
-    md:mx-12
+    md:mx-32
   `}
 `
