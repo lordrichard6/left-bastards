@@ -4,12 +4,14 @@ import styled from 'styled-components';
 import tw from 'twin.macro'
 
 
+import { LandingPage } from './containers/landingPage'
 
 
 function App() {
   return (
     <AppContainer>
-      Left Bastards
+      <LandingPage />
+      
     </AppContainer>
   );
 }
