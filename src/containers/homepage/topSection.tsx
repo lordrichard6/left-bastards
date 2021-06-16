@@ -34,7 +34,7 @@ const PageContainer = styled.div`
         h-full
         items-center
         overflow-x-hidden
-        my-12
+        my-12 
     `}
 `
 

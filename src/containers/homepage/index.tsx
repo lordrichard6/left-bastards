@@ -21,5 +21,6 @@ const PageContainer = styled.button`
         h-full
         items-center
         overflow-x-hidden
+        md:px-32
     `}
 `

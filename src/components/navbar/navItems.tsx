@@ -36,6 +36,7 @@ const NavItem = styled.div`
         md:text-xl
         font-black
         uppercase
+        tracking-wide
         cursor-pointer
         mx-3
         transition
